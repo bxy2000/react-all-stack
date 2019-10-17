@@ -1,0 +1,13 @@
+{
+  "name": "react-all-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  }
+}
