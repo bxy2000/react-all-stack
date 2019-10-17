@@ -3,11 +3,29 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "bxy",
+  "description": "react 全家桶",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "start": "webpack-dev-server --config webpack.config.js --open"
+  },
   "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   },
-  "scripts": {
-    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "8",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.8.2"
   }
 }
